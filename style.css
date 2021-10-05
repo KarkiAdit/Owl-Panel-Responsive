@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  width: 100%;
+}
+.carousel {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5px 30px;
+  background-color: #161623;
+}
+.carousel .card {
+  color: rgba(217, 204, 239, 1);
+  text-align: center;
+  margin: 20px 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: black;
+  box-shadow: 2px 3px rgba(217, 204, 239, 1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.carousel .card h1 {
+  color: #5fabe5;
+}
+
+.carousel .card embed {
+  width: 70% !important;
+  margin: 0.5rem auto;
+}
+
+.carousel .card span {
+  color: #5fabe5;
+  font-weight: bold;
+}
+.carousel .card a {
+  text-decoration: none;
+  font-weight: none;
+  color: rgba(217, 204, 239, 1);
+  padding: 0.3rem;
+  box-shadow: 10px 10px 30px rgb(0 0 0 / 50%);
+  background: rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  display: block;
+  width: 25%;
+  margin: 0.5rem auto;
+}
+.carousel .card a:hover {
+  transition: all ease 0.2s;
+  font-weight: bold;
+  box-shadow: 20px 20px 30px rgba(80, 221, 196, 0.2);
+  background-color: inherit;
+}
+
+.owl-dots {
+  text-align: center;
+}
+.owl-dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 50%;
+  border: 2px solid #68a5d3 !important;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover {
+  background: #5fabe5 !important;
+}
