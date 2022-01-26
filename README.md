@@ -1,5 +1,5 @@
 # Owl-Panel-Responsive
-This repository is my version of Owl-Panel using Owl slider framework of jQuery. It is fully responsive.
+`This repository is my version of Owl-Panel using Owl slider framework of jQuery. It is fully responsive.`
 
 Visit [this page](https://karkiadit.github.io/Owl-Panel-Responsive/) to see the deployment.
 
